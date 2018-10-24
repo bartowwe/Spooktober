@@ -1,0 +1,294 @@
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+    background: url('https://i.pinimg.com/originals/6e/f6/2b/6ef62b28c7e65f900ae813a377d99f51.png');
+}
+
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+h2:hover{
+    color: purple;
+}
+
+nav {
+    background: none;
+}
+
+#def ul {
+    display: block;
+    list-style-type: disc;
+    margin-top: 1em;
+    margin-bottom: 1 em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+}
+
+#name {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 300%;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+    letter-spacing: 3px;
+}
+
+#subtitle {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: bold;
+    letter-spacing: 1px;
+    background: none;
+}
+
+#name a {
+    text-decoration: none;
+    color: black;
+}
+
+#description {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 75%;
+    font-weight: lighter;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    background: white;
+}
+
+#header {
+    text-align: center;
+    background: none;
+}
+
+#header a {
+    background: none;
+}
+
+#header ul {
+    display: inline-table;
+    border: 1px solid black;
+    max-width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    background: white;
+    border-radius: 5px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    align-content: center;
+}
+
+
+#header li {
+    float: left;
+    list-style-type: none;
+    border-right: 1px solid black;
+}
+
+#header li:last-child { 
+    border-right: none;
+ }
+
+#header li :hover{
+    background: rgb(240, 240, 240);
+  }
+
+#header li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+#hiddentext {
+    display: none;
+}
+
+.container {
+    border: 1px none;
+    border-radius: 10px;
+    width: 75%;
+    margin: auto;
+    background:black;
+    color: white;
+    padding: 10px;
+    align-content: center;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+.image2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+.image3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    border-radius: 10px;
+}
+
+#closeyour {
+    font-family: 'Source Sans Pro', sans-serif;
+    display: none;
+    border: 1px none;
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+    background:white;
+    padding: 20px;
+    text-align: left;
+}
+
+#pulse {
+    font-family: 'Source Sans Pro', sans-serif;
+    display: none;
+    border: 1px none;
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+    background:white;
+    padding: 20px;
+    text-align: left;
+}
+
+#adelie {
+    font-family: 'Source Sans Pro', sans-serif;
+    display: none;
+    border: 1px none;
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+    background:white;
+    padding: 20px;
+    text-align: left;
+}
+
+#objectivity {
+    font-family: 'Source Sans Pro', sans-serif;
+    display: none;
+    border: 1px none;
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+    background:white;
+    padding: 20px;
+    text-align: left;
+}
+
+#yelp {
+    font-family: 'Source Sans Pro', sans-serif;
+    display: none;
+    border: 1px none;
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+    background:white;
+    padding: 20px;
+    text-align: left;
+}
+
+#story {
+    font-family: 'Source Sans Pro', sans-serif;
+    display: block;
+    border: 1px none;
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+    background:white;
+    color: black;
+    padding: 20px;
+    text-align: left;
+    white-space: pre-wrap;
+}
+
+#aboutme {
+    font-family: 'Source Sans Pro', sans-serif;
+    display: block;
+    border: 1px none;
+    border-radius: 10px;
+    width: 75%;
+    margin: auto;
+    background:white;
+    padding: 20px;
+    text-align: left;
+}
+
+#hiddentext {
+    font-family: 'Source Sans Pro', sans-serif;
+    display: block;
+    border: 1px none;
+    border-radius: 10px;
+    width: 96%;
+    margin: auto;
+    background:rgb(240, 240, 240);
+    padding: 20px;
+    text-align: left;
+}
+
+
+/* video player */
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 0px;
+    height: 0;
+    overflow: hidden;
+    
+}
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: auto;
+    left: auto;
+    width: 100%;
+    height: 100%;
+}   
+
+/* displaying images in the games category */
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 49%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column3 {
+    float: left;
+    width: 32%;
+    padding: 5px;
+  }
+  
